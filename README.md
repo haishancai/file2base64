@@ -2,19 +2,22 @@ file2base64
 -----
 
 file2base64 is a react component solution for file or image upload,and convert upload image into base64.
-***
+
 
 Usage
 -----
 
-import file
+###import file
+
 ```
 import FileHandle from "file";
 <input type="file" onChange={this.changeHandler.bind(this)} />
 ```
 
 
-upload event
+###upload event
+
+
 ```
 changeHandler(event){        
     let file = event.target.files[0];  
@@ -27,7 +30,8 @@ changeHandler(event){
 }
 ```
 
-ios problem solution
+###ios problem solution
+
 if you meet the problem that you take photo and image orientation is wrong，you can import exif.js.
 引入exif，详见  http://code.ciaoca.com/javascript/exif-js/
 
