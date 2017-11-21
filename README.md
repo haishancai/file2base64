@@ -7,7 +7,7 @@ file2base64 is a react component solution for file or image upload,and convert u
 Usage
 -----
 
-###import file
+### import file
 
 ```
 import FileHandle from "file";
@@ -15,7 +15,7 @@ import FileHandle from "file";
 ```
 
 
-###upload event
+### upload event
 
 
 ```
@@ -30,7 +30,7 @@ changeHandler(event){
 }
 ```
 
-###ios problem solution
+### ios problem solution
 
 if you meet the problem that you take photo and image orientation is wrong，you can import exif.js.
 引入exif，详见  http://code.ciaoca.com/javascript/exif-js/
