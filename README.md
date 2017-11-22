@@ -33,7 +33,7 @@ changeHandler(event){
 ### ios problem solution
 
 if you meet the problem that you take photo and image orientation is wrong，you can import exif.js.
-引入exif，详见  http://code.ciaoca.com/javascript/exif-js/
+see detail：  http://code.ciaoca.com/javascript/exif-js/
 
 ```
 <script type="text/javascript" src="exif.js" ></script>
